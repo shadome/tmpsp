@@ -3,7 +3,8 @@ export class Participant {
   forname: string;
   lastname: string;
   // birthdate: Date;
-
+// device id
+// afficher le birthdate dans la liste ou préférer un affichage du détail pour les RH ?
 
   school: string;
   year: number;

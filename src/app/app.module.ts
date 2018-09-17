@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ListComponent } from './list/list.component';
 
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { DetailComponent } from './detail/detail.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

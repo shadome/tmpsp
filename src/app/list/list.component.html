@@ -15,12 +15,4 @@
   </li>
 </ul>
 
-<div *ngIf="selected">
-  <h2>{{selected.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{selected.id}}</div>
-  <div>
-    <label>forname:
-      <input [(ngModel)]="selected.forname" placeholder="forname">
-    </label>
-  </div>
-</div>
+<app-detail [participant]="selected"></app-detail>
