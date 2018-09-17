@@ -14,3 +14,6 @@ export class Participant {
 
   estimation: number;
 }
+//https://angular.io/tutorial/toh-pt4
+//https://github.com/Ismaestro/angular6-example-app
+//https://www.youtube.com/watch?v=lNroNErjdo0&list=RDD6EDrPC3oeA&index=22
