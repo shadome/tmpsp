@@ -1,0 +1,26 @@
+
+<!-- <div><span>id: </span>{{list.id}}</div>
+<div><span>name: </span>{{list.forname | uppercase}}</div>
+
+<div>
+  <label>last name:
+    <input [(ngModel)]="list.lastname" placeholder="lastname">
+  </label>
+</div> -->
+
+
+<ul class="list">
+  <li [class.selected]="participant === selected" *ngFor="let participant of list" (click)="onSelect(participant)">
+    <span class="badge">{{participant.id}}</span> {{participant.forname}}
+  </li>
+</ul>
+
+<div *ngIf="selected">
+  <h2>{{selected.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selected.id}}</div>
+  <div>
+    <label>forname:
+      <input [(ngModel)]="selected.forname" placeholder="forname">
+    </label>
+  </div>
+</div>
