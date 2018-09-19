@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Participant } from '../model/participant';
-import { PARTICIPANTS } from '../mocks/participants.mock';
+import { Participant } from '../model/participant.model';
+import { PARTICIPANTS } from '../services/mocks/participants.mock';
 
 @Component({
   selector: 'app-list',
