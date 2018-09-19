@@ -1,5 +1,6 @@
-import { Participant } from '../model/participant';
+import { Participant } from '../../model/participant.model';
 
+// todo formater comme un web service, dans un module
 export const PARTICIPANTS: Participant[] = [
   {
     id: 0,
